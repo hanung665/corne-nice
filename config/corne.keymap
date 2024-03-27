@@ -68,10 +68,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans        &mkp LCLK     &mkp MCLK             &mkp RCLK             &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans                &trans                &trans  &trans
-                        &trans  &trans  &trans    &trans        &trans        &trans
+&kp ESC  &trans  &trans  &trans  &trans  &trans    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &trans        &mkp LCLK     &mkp MCLK             &mkp RCLK             &trans  &trans
+&trans   &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans                &trans                &trans  &trans
+                         &trans  &trans  &trans    &trans        &trans        &trans
             >;
         };
     };
