@@ -41,7 +41,7 @@
             bindings = <
 &kp ESC         &kp N1        &kp N2        &kp N3             &kp N4           &kp N5          &kp N6      &kp N7    &kp N8    &kp N9           &kp N0    &kp BSPC
 &kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4    &bt BT_CLR  &kp DEL   &kp UP    &kp PRINTSCREEN  &kp HOME  &kp PG_UP
-&kp C_BRI_DEC   &kp C_BRI_UP  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp CAPS        &none       &kp LEFT  &kp DOWN  &kp RIGHT        &kp END   &kp PG_DN
+&kp C_BRI_DEC   &kp C_BRI_UP  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &soft_off       &kp CAPS    &kp LEFT  &kp DOWN  &kp RIGHT        &kp END   &kp PG_DN
                                             &kp LGUI           &trans           &kp SPACE       &kp RET     &mo 3     &kp RALT
             >;
         };
@@ -81,10 +81,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
+&to 0  &none  &none  &none   &none   &none     &none   &none     &kp UP    &none      &none  &none
+&none  &none  &none  &none   &none   &none     &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
+&none  &none  &none  &none   &none   &none     &none   &none     &none     &none      &none  &none
+                     &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
     };
